@@ -137,6 +137,13 @@
             <url>https://maven.anypoint.mulesoft.com/api/v1/maven</url>
             <layout>default</layout>
         </repository>
+	  <repository>
+	              <id>enquero</id>
+		                  <name>Internal Exchange</name>
+				              <url>http://localhost:8081/nexus/content/repositories/</url>
+					                  <layout>default</layout>
+							          </repository>
+
         <repository>
             <id>mulesoft-releases</id>
             <name>MuleSoft Releases Repository</name>
