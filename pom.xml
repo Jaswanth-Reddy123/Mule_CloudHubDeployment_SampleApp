@@ -4,7 +4,7 @@
 
 	<groupId>internal.partnercompany</groupId>
 	<artifactId>sppl-exp-api</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>mule-application</packaging>
 
 	<name>sppl-exp-api</name>
@@ -98,6 +98,12 @@
             <version>1.5.6</version>
             <classifier>mule-plugin</classifier>
         </dependency>
+	       <dependency>
+	                   <groupId>internal.partnercompany</groupId>
+			               <artifactId>cus-exp-api</artifactId>
+				                   <version>1.0.0-SNAPSHOT</version>
+							               </dependency>
+
         <dependency>
             <groupId>org.mule.connectors</groupId>
             <artifactId>mule-sockets-connector</artifactId>
