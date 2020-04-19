@@ -82,7 +82,7 @@
 <plugin>
    <groupId>internal.partnercompany</groupId>
       <artifactId>cus-exp-api</artifactId>
-         <version>1.0.0</version>
+         <version>1.0.0-SNAPSHOT</version>
 	    <configuration>
 	          <skip>true</skip>
 		     </configuration>
