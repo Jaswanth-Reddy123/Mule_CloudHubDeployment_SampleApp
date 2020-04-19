@@ -37,6 +37,7 @@
 																																																																																									                        <workers>1</workers>
 																																																																																																	        <applicationName>myfirst-muledeployment</applicationName>
 																																																																																																							</cloudHubDeployment>
+																																																																																																							<skipDeploymentVerification>true</skipDeploymentVerification>
 																																																																																																											</configuration>
 																																																																																																														</plugin>
 																																																																																																																	<plugin>
