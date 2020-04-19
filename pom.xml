@@ -108,6 +108,11 @@
       <id>snapshots</id>
       <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
    </snapshotRepository>
+
+       <repository>
+               <id>InternalReleases</id>
+		               <url>http://localhost:8081/nexus/content/repositories/driscolls</url>
+			           </repository>
 </distributionManagement>
 
 	<repositories>
