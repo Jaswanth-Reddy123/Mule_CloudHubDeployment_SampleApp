@@ -138,9 +138,9 @@
             <layout>default</layout>
         </repository>
 	  <repository>
-	              <id>enquero</id>
+	              <id>InternalReleases</id>
 		                  <name>Internal Exchange</name>
-				              <url>http://localhost:8081/nexus/content/repositories/</url>
+				              <url>http://localhost:8081/nexus/content/repositories/enquero</url>
 					                  <layout>default</layout>
 							          </repository>
 
