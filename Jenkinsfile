@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Deploy') {
       steps {
-	       bat 'mvn deploy'      
+	       bat 'mvn package deploy'      
       }
     }
     stage('Update Deployment status') {
