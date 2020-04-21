@@ -5,9 +5,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>internal.partnercompany</groupId>
 	<artifactId>cus-exp-api</artifactId>
-	<version>1.0.8</version>
+	<version>1.0.9</version>
 	<packaging>mule-application</packaging>
-	<name>cus-exp-api</name>
+	<name>cus-prc-api</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -32,7 +32,7 @@
 						<region>us-east-2</region>
 						<workerType>Micro</workerType>
 						<workers>1</workers>
-						<applicationName>cus-exp-api</applicationName>
+						<applicationName>cus-prc-api</applicationName>
 					</cloudHubDeployment>
 					<skipDeploymentVerification>true</skipDeploymentVerification>
 				</configuration>
