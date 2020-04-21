@@ -26,13 +26,13 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.2.1</muleVersion>
 						<applicationName>cus-exp-api</applicationName>
-						<username>mdabrar1</username>
-						<password>@burosE4</password>
+						<username>chsrinivas409</username>
+						<password>Password1@</password>
 						<environment>Sandbox</environment>
 						<region>us-east-2</region>
 						<workerType>Micro</workerType>
 						<workers>1</workers>
-						<applicationName>myfirst-muledeployment</applicationName>
+						<applicationName>cus-exp-api</applicationName>
 					</cloudHubDeployment>
 					<skipDeploymentVerification>true</skipDeploymentVerification>
 				</configuration>
