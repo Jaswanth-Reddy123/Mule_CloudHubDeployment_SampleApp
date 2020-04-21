@@ -13,8 +13,7 @@ pipeline {
     }
     stage('Deploy') {
       steps {
-	      withMaven(maven: 'M3', mavenSettingsConfig: 'setting-updated.xml') 
-		 bat 'mvn deploy'      
+	       bat 'mvn deploy'      
       }
     }
     stage('Update Deployment status') {
