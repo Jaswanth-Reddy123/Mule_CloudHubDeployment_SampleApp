@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Initializing') {
       steps {
-        bat 'echo Building Project ${env.JOB_NAME} '
+        bat 'echo Building Project %JOB_NAME% '
       }
     }
     stage('Build and package') {
