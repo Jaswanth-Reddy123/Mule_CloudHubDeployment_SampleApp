@@ -4,8 +4,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>internal.partnercompany</groupId>
-	<artifactId>cus-exp-api</artifactId>
-	<version>1.0.9</version>
+	<artifactId>cus-prc-api</artifactId>
+	<version>1.0.10</version>
 	<packaging>mule-application</packaging>
 	<name>cus-prc-api</name>
 	<properties>
@@ -24,7 +24,7 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.2.1</muleVersion>
+						<muleVersion>4.2.2</muleVersion>
 						<applicationName>cus-exp-api</applicationName>
 						<username>chsrinivas409</username>
 						<password>Password1@</password>
