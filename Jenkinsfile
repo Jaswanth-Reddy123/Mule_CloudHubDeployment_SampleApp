@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Initializing') {
       steps {
-        bat 'echo Building Project %JOB_NAME% '
+        bat 'echo Building Project Mule Soft Deployment '
       }
     }
     stage('Build and package') {
